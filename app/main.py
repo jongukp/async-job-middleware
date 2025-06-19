@@ -49,7 +49,7 @@ async def status(request: Request) -> JSONResponse:
 
 async def start_async_job(account: str, callback_url: str) -> None:
     process = await asyncio.create_subprocess_exec(
-        "./jobclient",
+        "./win64/jobclient.exe",
         "--account",
         account,
         "--wait",
