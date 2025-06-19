@@ -9,12 +9,6 @@ A simple async job proxy API built with Starlette and aiohttp.
 
 ## Setup
 
-0. **Clone the repository:**
-   ```sh
-   git clone <your-repo-url>
-   cd <your-repo-directory>
-   ```
-
 1. **Create and activate a virtual environment:**
    ```sh
    python3 -m venv venv
